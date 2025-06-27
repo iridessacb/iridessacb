@@ -284,6 +284,12 @@ a{
     margin: auto;
     width: 50px;
 }
+.rs-right {
+	display: flex;
+	float: right;
+	margin-right: 200px;
+	margin-top: -350px;
+}
 
 /*------MODAL-----*/
 .modal {
