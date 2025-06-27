@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iridessa Coffee-Bar</title>
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+<link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.cdnfonts.com/css/gulya" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos-divs.css">
+</head>    
+
+    
+<body>
+	<nav id="inicio" class="navbar navbar-light">
+		<div class="navbar-brand" href="index.html">
+		  <img id="logo" src="images/irilogo-contorno.png" alt="" width="170">
+		</div>
+        
+        
+        
+	  <ul class="nav nav-pills justify-content-end">
+		  <li class="nav-item">
+			<a class="nav-link" id="btn-sobre" aria-current="page" href="#jumbotron"><h2>Sobre</h2></a>
+		  </li>
+          
+                <div class="dropdown show"> <a id="btn-menu" class="btn btn-lg dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menú</a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="#frios">Bebidas Frías</a>
+                <a class="dropdown-item" href="#calientes">Bebidas Calientes</a>
+                <a class="dropdown-item" href="#frappes">Frappés</a>
+                <a class="dropdown-item" href="#alcol">Bebidas Con Alcohol</a>
+                <a class="dropdown-item" href="#crepas">Crepas</a>
+                </div>
+                </div>	
+          
+		  <li class="nav-item">
+			<a class="nav-link" id="btn-qa" href="#accordion1"><h2>Q&A</h2></a>
+		  </li>
+		</ul>
+    </nav>
+    
+    
+    
+    
+	
+<div class="container">
+  <div class="row jbtrn">
+    
+    <div id="jumbotron" class="col-12 col-md-5">
+      <h1>Donde cada <br>bocado es <br>un viaje</h1>
+      <p>Celebra con nosotros el despegue de nuestra sucursal y recibe un <strong>cupón de descuento</strong> vía WhatsApp para tu primera bebida o postre.</p>
+      <a href="formulario.html" id="cupon-btn" class="btn d-block mx-auto">Recibe tu cupón</a>
+    </div>
+
+    <div id="hero-image" class="col-12 col-md-7">
+      <img class="img-fluid" src="images/pm.png" alt="hero image pink matcha">
+    </div>
+
+  </div>
+</div>
+
+    
+    
+<div class="container">
+    <div id="frios" class="secciones-menu"><h1>Bebidas Frías</h1></div>
+  <div id="frio" class="carousel slide" data-ride="carousel">
+     <ol class="carousel-indicators">
+       <li data-target="#frio" data-slide-to="0" class="active"></li>
+       <li data-target="#frio" data-slide-to="1"></li>
+       <li data-target="#frio" data-slide-to="2"></li>
+     </ol>
+     <div class="carousel-inner" role="listbox">
+       <div class="carousel-item active items-frio"> <img class="d-block mx-auto" src="images/frio1.png" alt="Vanilla Latte">
+         <div class="carousel-caption">
+           <h1>Vanilla Latte</h1>
+         </div>
+       </div>
+       <div class="carousel-item items-frio"> <img class="d-block mx-auto" src="images/frio2.png" alt="Pink matcha">
+         <div class="carousel-caption">
+           <h1>Pink Matcha</h1>
+         </div>
+       </div>
+       <div class="carousel-item items-frio"> <img class="d-block mx-auto" src="images/frio3.png" alt="Tisana">
+         <div class="carousel-caption">
+           <h1>Tisana</h1>
+         </div>
+       </div>
+     </div>
+     <a class="carousel-control-prev" href="#frio" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#frio" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+</div>
+    
+    
+<div class="container">
+  <div id="calientes" class="secciones-menu"><h1>Bebidas Calientes</h1></div>
+  <div id="caliente" class="carousel slide" data-ride="carousel">
+     <ol class="carousel-indicators">
+       <li data-target="#caliente" data-slide-to="0" class="active"></li>
+       <li data-target="#caliente" data-slide-to="1"></li>
+       <li data-target="#caliente" data-slide-to="2"></li>
+     </ol>
+     <div class="carousel-inner" role="listbox">
+       <div class="carousel-item active items-cal"> <img class="d-block mx-auto" src="images/cal1.png" alt="Americano">
+         <div class="carousel-caption">
+           <h1>Americano</h1>
+         </div>
+       </div>
+       <div class="carousel-item items-cal"> <img class="d-block mx-auto" src="images/cal2.png" alt="Expresso">
+         <div class="carousel-caption">
+           <h1>Expresso</h1>
+         </div>
+       </div>
+       <div class="carousel-item items-cal"> <img class="d-block mx-auto" src="images/cal3.png" alt="Capuccino">
+         <div class="carousel-caption">
+           <h1>Capuccino</h1>
+         </div>
+       </div>
+     </div>
+     <a class="carousel-control-prev" href="#caliente" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#caliente" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+</div>
+
+    
+<div class="container">
+    <div class="secciones-menu" id="frappes"><h1>Frappés</h1></div>
+  <div id="frappe" class="carousel slide" data-ride="carousel">
+     <ol class="carousel-indicators">
+       <li data-target="#frappe" data-slide-to="0" class="active"></li>
+       <li data-target="#frappe" data-slide-to="1"></li>
+       <li data-target="#frappe" data-slide-to="2"></li>
+     </ol>
+     <div class="carousel-inner" role="listbox">
+       <div class="carousel-item active items-frap"> <img class="d-block mx-auto" src="images/fr1.png" alt="c&c">
+         <div class="carousel-caption">
+           <h1>Cookies & Cream</h1>
+         </div>
+       </div>
+       <div class="carousel-item items-frap"> <img class="d-block mx-auto" src="images/fr2.png" alt="Nutella">
+         <div class="carousel-caption">
+           <h1>Nutella</h1>
+         </div>
+       </div>
+       <div class="carousel-item items-frap"> <img class="d-block mx-auto" src="images/fr3.png" alt="Frapuccino">
+         <div class="carousel-caption">
+           <h1>Frapuccino</h1>
+         </div>
+       </div>
+     </div>
+    <a class="carousel-control-prev" href="#frappe" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#frappe" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+</div>
+    
+
+<div class="container">
+    <div id="alcol" class="secciones-menu"><h1>Bebidas con Alcohol</h1></div>
+  <div id="alcohol" class="carousel slide" data-ride="carousel">
+     <ol class="carousel-indicators">
+       <li data-target="#alcohol" data-slide-to="0" class="active"></li>
+       <li data-target="#alcohol" data-slide-to="1"></li>
+       <li data-target="#alcohol" data-slide-to="2"></li>
+       <li data-target="#alcohol" data-slide-to="3"></li>
+     </ol>
+     <div class="carousel-inner" role="listbox">
+       <div class="carousel-item active items-alc"> <img class="d-block mx-auto" src="images/alc1.png" alt="Mojito">
+         <div class="carousel-caption">
+           <h1>Mojito</h1>
+         </div>
+       </div>
+       <div class="carousel-item items-alc"> <img class="d-block mx-auto" src="images/alc2.png" alt="Daiquiri">
+         <div class="carousel-caption">
+           <h1>Daiquiri</h1>
+         </div>
+       </div>
+       <div class="carousel-item items-alc"> <img class="d-block mx-auto" src="images/alc3.png" alt="Ginebra">
+         <div class="carousel-caption">
+           <h1>Ginebra</h1>
+         </div>
+       </div>
+         <div class="carousel-item items-alc"> <img class="d-block mx-auto" src="images/alc4.png" alt="Michelada">
+         <div class="carousel-caption">
+           <h1>Michelada</h1>
+         </div>
+       </div>
+     </div>
+     <a class="carousel-control-prev" href="#alcohol" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#alcohol" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+</div>
+   
+<div class="container">
+    <div id="crepas" class="secciones-menu"><h1>Crepas</h1></div>
+  <div id="crepa" class="carousel slide" data-ride="carousel">
+     <ol class="carousel-indicators">
+       <li data-target="#crepa" data-slide-to="0" class="active"></li>
+       <li data-target="#crepa" data-slide-to="1"></li>
+       <li data-target="#crepa" data-slide-to="2"></li>
+     </ol>
+     <div class="carousel-inner" role="listbox">
+       <div class="carousel-item active items-crep"> <img class="d-block mx-auto" src="images/crep1.png" alt="Sencilla">
+         <div class="carousel-caption">
+           <h1>Sencilla</h1>
+         </div>
+       </div>
+       <div class="carousel-item items-crep"> <img class="d-block mx-auto" src="images/crep2.png" alt="Dulce premium">
+         <div class="carousel-caption">
+           <h1>Dulce Premium</h1>
+         </div>
+       </div>
+       <div class="carousel-item items-crep"> <img class="d-block mx-auto" src="images/crep3.png" alt="Salada">
+         <div class="carousel-caption">
+           <h1>Salada</h1>
+         </div>
+       </div>
+     </div>
+     <a class="carousel-control-prev" href="#crepa" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#crepa" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+</div>
+
+
+    
+<div class="secciones-menu"><h1>Preguntas Frecuentes</h1></div>
+<div class="container">
+  <div id="accordion1" role="tablist">
+    <div class="card">
+      <div class="card-header" role="tab" id="headingOne1">
+        <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1">     ¿Puedo trabajar o estudiar en el coffee bar? </a> </h5>
+      </div>
+      <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+        <div class="card-body">¡Claro! Contamos con Wi-Fi gratuito, enchufes y un ambiente tranquilo entre semana. Ideal para estudiar, leer o hacer tareas.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" role="tab" id="headingTwo1">
+        <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1">¿Tienen opciones veganas o sin lactosa?</a> </h5>
+      </div>
+      <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
+        <div class="card-body">¡Sí! En Iridessa contamos con leches vegetales (almendra, soya, avena) y algunas opciones de postres veganos o sin lactosa. Pregunta por nuestras opciones cósmicas del día.
+</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" role="tab" id="headingThree1">
+        <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1">¿Aceptan pagos con tarjeta o transferencias?
+</a> </h5>
+      </div>
+      <div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
+        <div class="card-body">Sí, aceptamos tarjetas de débito/crédito y transferencias. También puedes pagar en efectivo.
+</div>
+      </div>
+    </div>
+  </div>
+</div>   
+    
+    <div id="up" class="rs"><a href="#inicio"><img src="images/up.png" alt="up"></a></div>
+
+    
+ <div id="footer" class="row">
+		<div class="col-md-4 text-center">
+           <a class="rs" href="https://www.instagram.com/iridessa_coffeebar/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#"><img src="images/ig.png" height="50px" alt="ig."></a>&nbsp;&nbsp;
+            <a class="rs" href="https://www.facebook.com/"><img src="images/fb.png" height="50px" alt="fb"></a>&nbsp;&nbsp;
+            <a class="rs" href="https://www.whatsapp.com/"><img src="images/ws.png" height="50px" alt="wa"></a>
+		</div>
+		<div class="col-md-4 text-center" id="copyright"> Iridessa  |  Derechos reservados</div>
+		<div class="col-md-4"></div>
+	</div>   
+    
+    
+	<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+ 
+<!-- Latest compiled JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.
+min.js"></script> -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.3.1.js"></script>
+
+</body>
+</html>

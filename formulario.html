@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cupón</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.cdnfonts.com/css/gulya" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos-divs.css">
+</head>
+
+<body>
+<div id="contenedor-formulario"> 
+<div class="container">
+	<div class="row d-flex align-items-center" style="height: 80vh;">
+		<div class="col-md-3"></div>
+		<div class="col-md-6"><br>
+			<h1 class="text-center">¡Ingresa tus datos y recibe <br>un cupón para tu próxima compra!</h1> <br>
+			<div class="form-floating mb-3">
+				<label for="floatingInput"><h2>Nombre</h2></label>
+				<input type="email" class="form-control" id="floatingName">
+			</div>
+			<div class="form-floating mb-3">
+				<label for="floatingInput"><h2>Número Celular</h2></label>
+				<input type="tel" class="form-control" 
+  id="floatingNumber" name="telefono" pattern="\d{10}" 
+  maxlength="10" required>
+                
+			</div>
+			<a href="#confirmacion" id="enviar" class="btn btn-primary d-block mx-auto"><h3>Enviar</h3>
+			</a><br><br>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+</div>
+    
+    
+    <div id="up" class="rs"><a href="index.html"><img src="images/back.png" alt="back"></a></div>
+    
+    
+	 <div id="footer" class="row">
+		<div class="col-md-4 text-center">
+            <a class="rs" href="https://www.instagram.com/iridessa_coffeebar/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#"><img src="images/ig.png" height="50px" alt="ig."></a>&nbsp;&nbsp;
+            <a class="rs" href="https://www.facebook.com/"><img src="images/fb.png" height="50px" alt="fb"></a>&nbsp;&nbsp;
+            <a class="rs" href="https://www.whatsapp.com/"><img src="images/ws.png" height="50px" alt="wa"></a>
+		</div>
+		<div class="col-md-4 text-center" id="copyright"> Iridessa  |  Derechos reservados</div>
+		<div class="col-md-4"></div>
+	</div>  
+	
+    
+    
+	<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min
+.js"></script>
+ 
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/p
+opper.min.js"></script>
+ 
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.
+min.js"></script>
+</div>
+    
+    
+    
+    
+<!---MODAL--->
+<div id="confirmacion" class="modal">
+  <div class="modal-contenido"><h1>✓<br>¡Gracias!</h1>
+    <p>En un momento recibirás tu cupón<br></p>
+    <a href="index.html" class="cerrar">Aceptar</a>
+  </div>
+</div>
+    
+    
+</body>
+</html>
