@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #f6f2ef;
+	font-family: "Inter", sans-serif;
+}
+.contenedor-principal{
+	height: auto;
+
+}
+.jumbotron{
+	background-color: #fff2b7;
+	color: #6289df;
+	float: left;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	height: 384px;
+	margin-left: 20px;
+}
+.jumbotron h1{
+	font-size: 100px;
+	line-height: 90px;
+}
+#hero-image img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.yellow-box{
+	display: flex;
+}
+#cupon-btn{
+	margin-left: 20px;
+}
+
+/*----TEXTOS-----*/
+h1{
+	font-family: "Gulya", sans-serif;
+	font-weight: 100;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+p{
+	padding-top: 2px;
+	padding-right: 30px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+}
